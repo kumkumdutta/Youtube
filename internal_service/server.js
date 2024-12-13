@@ -1,4 +1,4 @@
-import { Collection } from 'mongodb';
+
 import * as Packages from './packages/node.packages.js'
 import { InternalService } from './utils/db.utils.js';
 import * as router from './routes/int.routes.js'
@@ -20,6 +20,7 @@ const fastify = Packages.fastify();
         // Start the server
         const address = await fastify.listen({ port: 3000 });
         console.log(`Server listening at ${address}`);
+            
     } catch (err) {
         console.error('Failed to start server:', err);
         process.exit(1);
