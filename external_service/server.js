@@ -10,7 +10,7 @@ const fastify = Packages.fastify();
     try {
         await fastify.register(require('./routes/ext.routes.js'));
         // Start the server
-        const address = await fastify.listen({ port: 4000 });
+        const address = await fastify.listen({ port: 4001 });
         console.log(`Server listening at ${address}`);
             
     } catch (err) {

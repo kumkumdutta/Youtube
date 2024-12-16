@@ -18,7 +18,7 @@ const fastify = Packages.fastify();
         await fastify.register(router);
 
         // Start the server
-        const address = await fastify.listen({ port: 3000 });
+        const address = await fastify.listen({ port: 4000 });
         console.log(`Server listening at ${address}`);
             
     } catch (err) {
