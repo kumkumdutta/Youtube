@@ -1,0 +1,21 @@
+{
+  "name": "cloud_service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/multipart": "^9.0.1",
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.0",
+    "fastify-multipart": "^5.3.1",
+    "nodemon": "^3.1.9"
+  }
+}
